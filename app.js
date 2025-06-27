@@ -41,26 +41,27 @@ const portfolioData = [
 
 const servicesData = [
     {
-        "title": "Web Development",
-        "description": "Custom websites and web applications built with modern technologies",
+        "title": "Full-Stack Web Development",
+        "description": "End-to-end web solutions, from dynamic front-end interfaces to robust back-end systems, using technologies like React.js, Node.js, and MongoDB",
         "icon": "💻"
     },
     {
-        "title": "UI/UX Design",
-        "description": "User-centered design solutions that enhance user experience",
-        "icon": "🎨"
+        "title": "Real-Time Applications",
+        "description": "Development of interactive platforms with real-time features such as messaging and notifications using WebSocket and Socket.io",
+        "icon": "⚡"
     },
     {
-        "title": "Brand Identity",
-        "description": "Complete branding packages from logo to style guides",
-        "icon": "🚀"
+        "title": "Algorithmic Solutions & DSA",
+        "description": "Optimized solutions for complex problems, leveraging expertise in data structures, algorithms, and competitive programming",
+        "icon": "🧠"
     },
     {
-        "title": "Consulting",
-        "description": "Strategic guidance on digital projects and technology decisions",
-        "icon": "💡"
+        "title": "Cloud Deployment",
+        "description": "Efficient deployment of applications on cloud platforms with expertise in AWS services like EC2 and S3 for scalable and reliable solutions",
+        "icon": "☁️"
     }
 ];
+
 
 const testimonialsData = [
     {
@@ -87,13 +88,18 @@ const testimonialsData = [
 ];
 
 const skillsData = [
+    { "name": "C/C++", "level": 85 },
     { "name": "JavaScript", "level": 90 },
+    { "name": "TypeScript", "level": 80 },
+    { "name": "SQL", "level": 75 },
     { "name": "React.js", "level": 85 },
-    { "name": "UI/UX Design", "level": 80 },
+    { "name": "Express.js", "level": 80 },
     { "name": "Node.js", "level": 75 },
-    { "name": "Adobe Creative Suite", "level": 85 },
-    { "name": "Figma/Sketch", "level": 90 }
+    { "name": "MongoDB", "level": 80 },
+    { "name": "MySQL", "level": 75 },
+    { "name": "Git", "level": 85 }
 ];
+
 
 // DOM Elements
 const navMenu = document.getElementById('nav-menu');

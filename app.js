@@ -6,7 +6,7 @@ const portfolioData = [
         "category": "development",
         "image": "https://png.pngtree.com/png-vector/20240201/ourmid/pngtree-ui-3d-model-cartoon-style-render-illustration-png-image_11583422.png",
         "description": "A full-stack web app for local buying, selling, and trading.",
-        "technologies": ["React", "Node.js", "MongoDB","Socket.io"],
+        "technologies": ["React", "Node.js", "MongoDB", "Socket.io"],
         "year": "2024"
     },
     {
@@ -15,28 +15,29 @@ const portfolioData = [
         "category": "development",
         "image": "https://images.ctfassets.net/aoyx73g9h2pg/5xTOYud1foLeK6Gn7QaKlB/9da738c1e892da28ce682d99374fa7a9/1J4FJKgLvSAxv0ix3doSl387kPHCCLYcI_1-Featured-1024x572.jpg",
         "description": "blueare is a Redis clone I had built from scratch using C++",
-        "technologies": ["C++","C"],
+        "technologies": ["C++", "C"],
         "year": "2025"
     },
     {
         "id": 3,
         "title": "Smart Parking System",
-        "category": "development",
+        "category": "design",
         "image": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs41870-021-00725-8/MediaObjects/41870_2021_725_Fig1_HTML.png",
         "description": "IoT-based solution designed to automate parking management",
-        "technologies": ["HTML","CSS","Js","Embedded C"],
+        "technologies": ["HTML", "CSS", "Js", "Embedded C"],
         "year": "2025"
     },
     {
         "id": 4,
-        "title": "Mobile App UI Design",
-        "category": "design",
-        "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500",
-        "description": "User interface design for a social media mobile application",
-        "technologies": ["Figma", "Principle", "Adobe XD"],
-        "year": "2023"
+        "title": "Real-Time Chatting App",
+        "category": "development",
+        "image": "https://png.pngtree.com/png-vector/20240201/ourmid/pngtree-ui-3d-model-cartoon-style-render-illustration-png-image_11583422.png",
+        "description": "A real-time messaging application enabling instant communication between users.",
+        "technologies": ["React", "Node.js", "Socket.io"],
+        "year": "2025"
     }
 ];
+
 
 const servicesData = [
     {
